@@ -3,7 +3,7 @@ class BaseCalculator {
         return a - b;
     }
 
-    sum(...numbers) {
+    sumMultiple(...numbers) {
         return numbers.reduce((sum, num) => sum + num, 0);
     }
 }
