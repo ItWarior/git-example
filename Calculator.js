@@ -3,6 +3,10 @@ class BaseCalculator {
         return a - b;
     }
 
+    multiply(a, b) {
+        return a * b;
+    }
+
     sumMultiple(...numbers) {
         if (numbers.length > 0) {
             console.log(`Trying to calculate a sum for ${numbers.concat(',')} numbers`);
